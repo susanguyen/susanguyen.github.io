@@ -43,10 +43,9 @@ nav .active {
   color: #f1ece6;
 }
 
-nav a:before {
+nav a::before {
   display: block;
   content: attr(title);
-  font-weight: bold;
   height: 0;
   overflow: hidden;
   visibility: hidden;
