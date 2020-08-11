@@ -1,16 +1,10 @@
-/* will add other selectors later */
-ul {
-  font-family: 'Georgia', sans-serif;
-  margin: 0;
-}
-
 /* nav bar */
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #0e1111;
   /* fixed top navbar */
   position: fixed;
   top: 0;
@@ -24,18 +18,22 @@ nav li {
 /* styles the nav links */
 nav li a {
   display: block;
-  color: white;
+  color: #f5f5f5;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Georgia', sans-serif;
+  font-size: 20px;
 }
 
 /* bolds the nav link color on hover */
 nav li a:hover:not(.active) {
   font-weight: bold;
+  color: #ffeeee;
 }
 
 /* current nav link stays bold */
 nav .active {
   font-weight: bold;
+  color: #ffeeee;
 }
