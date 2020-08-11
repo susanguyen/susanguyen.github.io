@@ -5,7 +5,7 @@ body {
 
 /* nav bar */
 nav ul {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -17,8 +17,8 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;
-  font-size: 0;
+  /* display: inline-block;
+  font-size: 0; */
   float: right;
 }
 
@@ -34,8 +34,6 @@ nav li a {
 
 /* bold nav link color on hover */
 nav li a:hover {
-  font-weight: bold;
-  color: #f1ece6;
   visibility: hidden;
 }
 
@@ -45,7 +43,7 @@ nav .active {
   color: #f1ece6;
 }
 
-/* stop text from shifting when bolded */
+/* keep text from shifting when bolded */
 nav a:hover:before {
   position: absolute;
   font-weight: bold;
