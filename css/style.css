@@ -9,22 +9,23 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #0f1225;
-  /* fixed top navbar */
+  /* nav bar is fixed at top */
   position: fixed;
   top: 0;
   width: 100%;
 }
 
 nav li {
+  display: inline-block;
+  font-size: 0;
   float: right;
 }
 
 /* styles the nav links */
 nav li a {
-  display: block;
+  display: inline-block;
   color: #afd1ea;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -35,16 +36,17 @@ nav li a:hover:not(.active) {
   color: #f1ece6;
 }
 
-/* current nav link stays bold and is uppercase */
+/* current nav link stays bold */
 nav .active {
   font-weight: bold;
   color: #f1ece6;
 }
 
-nav #nav-border .active {
-  display: inline-block;
-  width: 50px;
-  border: 1px solid #f1ece6;
-  text-align: center;
-  margin: 0 auto;
+nav a::before {
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
