@@ -47,7 +47,7 @@ nav .active {
 /* stop text from shifting when bolded */
 nav a::before {
   display: block;
-  content: attr(title);
+  content: attr(data-text);
   font-weight: bold;
   height: 0;
   overflow: hidden;
