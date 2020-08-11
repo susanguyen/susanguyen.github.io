@@ -45,7 +45,7 @@ nav .active {
 }
 
 /* keep text from shifting when bolded */
-nav a::before {
+nav li a:hover:before {
   /*
   display: block;
   content: attr(title);
@@ -57,4 +57,6 @@ nav a::before {
   position: absolute;
   font-weight: bold;
   content: attr(data-text);
+  overflow: hidden;
+  visibility: hidden;
 }
