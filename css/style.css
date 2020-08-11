@@ -33,7 +33,7 @@ nav li a:hover:not(.active) {
 }
 
 /* current nav link stays bold */
-nav .active {
+.active {
   font-weight: bold;
   color: #ffeeee;
 }
