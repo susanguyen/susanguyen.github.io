@@ -46,4 +46,5 @@ nav #nav-border .active {
   width: 50px;
   border: 1px solid #f1ece6;
   text-align: center;
+  margin: 0 auto;
 }
