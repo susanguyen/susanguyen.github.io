@@ -1,3 +1,9 @@
+/* will add other selectors later */
+ul {
+  font-family: 'Georgia', sans-serif;
+  margin: 0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
