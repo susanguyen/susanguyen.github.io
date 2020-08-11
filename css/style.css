@@ -9,7 +9,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #0f1225;
-  /* nav bar is fixed at top */
+  /* fix nav bar at top */
   position: fixed;
   top: 0;
   width: 100%;
@@ -31,21 +31,23 @@ nav li a {
   font-size: 20px;
 }
 
-/* bolds the nav link color on hover */
+/* bold nav link color on hover */
 nav li a:hover {
   font-weight: bold;
   color: #f1ece6;
 }
 
-/* current nav link stays bold */
+/* keep current nav link bold */
 nav .active {
   font-weight: bold;
   color: #f1ece6;
 }
 
+/* stop text from shifting when bolded */
 nav a::before {
   display: block;
   content: attr(title);
+  font-weight: bold;
   height: 0;
   overflow: hidden;
   visibility: hidden;
