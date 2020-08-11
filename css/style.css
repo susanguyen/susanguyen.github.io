@@ -33,7 +33,7 @@ nav li a:hover:not(.active) {
 }
 
 /* current nav link stays bold and is uppercase */
-nav li a:.active {
+nav li a .active {
   font-weight: bold;
   color: #aba0cd;
   text-transform: uppercase;
