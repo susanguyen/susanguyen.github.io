@@ -4,20 +4,25 @@ ul {
   margin: 0;
 }
 
-ul {
+/* nav bar */
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  /* fixed top navbar */
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-li {
+nav li {
   float: right;
 }
 
-/* styles the navbar links */
-li a {
+/* styles the nav links */
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -25,11 +30,12 @@ li a {
   text-decoration: none;
 }
 
-/* bolds the link color on hover */
-li a:hover:not(.active) {
+/* bolds the nav link color on hover */
+nav li a:hover:not(.active) {
   font-weight: bold;
 }
 
-.active {
+/* current nav link stays bold */
+nav .active {
   font-weight: bold;
 }
