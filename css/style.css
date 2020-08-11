@@ -26,12 +26,13 @@ nav li a {
   display: inline-block;
   color: #afd1ea;
   text-align: center;
+  padding: 30px 30px;
   text-decoration: none;
   font-size: 20px;
 }
 
 /* bolds the nav link color on hover */
-nav li a:hover:not(.active) {
+nav li a:hover {
   font-weight: bold;
   color: #f1ece6;
 }
@@ -42,7 +43,7 @@ nav .active {
   color: #f1ece6;
 }
 
-nav a::before {
+nav a:before {
   display: block;
   content: attr(title);
   font-weight: bold;
