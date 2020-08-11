@@ -1,6 +1,10 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
-  background: #adbccd;
 }
 
 /* nav bar */
@@ -52,4 +56,12 @@ nav a::before {
   height: 0;
   overflow: hidden;
   visibility: hidden;
+}
+
+.background {
+  background-image: url("../assets/waves.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
