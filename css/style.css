@@ -1,10 +1,14 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 /* nav bar */
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #27233e;
+  background-color: #0f1225;
   /* fixed top navbar */
   position: fixed;
   top: 0;
@@ -22,19 +26,24 @@ nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Helvetica', sans-serif;
   font-size: 20px;
 }
 
 /* bolds the nav link color on hover */
 nav li a:hover:not(.active) {
   font-weight: bold;
-  color: #aba0cd;
+  color: #f1ece6;
 }
 
 /* current nav link stays bold and is uppercase */
 nav .active {
   font-weight: bold;
-  color: #aba0cd;
-  text-transform: uppercase;
+  color: #f1ece6;
+}
+
+nav #nav-border .active {
+  display: inline-block;
+  width: 50px;
+  border: 1px solid #f1ece6;
+  text-align: center;
 }
