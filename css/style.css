@@ -34,9 +34,8 @@ nav a {
 
 /* bold nav link color on hover */
 nav a:hover {
-  /* font-weight: bold;
-  color: #f1ece6; */
-  visibility: hidden;
+  font-weight: bold;
+  color: #f1ece6;
 }
 
 /* keep current nav link bold */
@@ -47,16 +46,10 @@ nav .active {
 
 /* keep text from shifting when bolded */
 nav a:hover:before {
-  /*
   display: block;
-  content: attr(title);
+  content: attr(data-text);
   font-weight: bold;
   height: 0;
   overflow: hidden;
   visibility: hidden;
-  */
-  position: absolute;
-  font-weight: bold;
-  color: #f1ece6
-  content: attr(data-text);
 }
