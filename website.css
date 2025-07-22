@@ -1,0 +1,51 @@
+body, html {
+    color: #444;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 2em auto;
+	max-width: 60em;
+}
+
+#info {
+    width: 48%;
+    float: left;
+}
+
+#pic {
+    width: 48%;
+    float: right;
+    vertical-align: bottom;
+}
+
+#teaching {
+    width: 48%;
+    float: left;
+    margin-top: 0;
+}
+
+#projects {
+    width: 48%;
+    float: right;
+}
+
+#teaching p, #education p {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    padding-left: 44px;
+    text-indent: -22px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#wrap {
+	max-width: 60em;
+    margin: 0 auto;
+}
+
+.resize {
+    width: 350px;
+    height: auto;
+}
